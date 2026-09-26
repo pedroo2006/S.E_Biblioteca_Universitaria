@@ -14,7 +14,7 @@ Trabalho da disciplina de Sistemas Especialistas
 
 Sistema especialista que decide por forward chaining se um empréstimo de livro pode ser autorizado para um aluno da biblioteca de uma universidade. A decisão é baseada em uma base de conhecimento com fatos sobre o aluno e sobre o livro solicitado, avaliados por 5 regras sequenciais. O processamento é interrompido assim que a primeira regra falha, e o sistema mantém uma trilha explicando o raciocínio até a decisão final.
 
-## Base de Conhecimento (resumo)
+## Base de Conhecimento
 
 **Parâmetros:** `max_emprestimos_aluno = 5`, `prazo_dias_padrao = 14`
 
@@ -25,6 +25,6 @@ Sistema especialista que decide por forward chaining se um empréstimo de livro 
 - **R4** – Verificação de Disponibilidade (`disponivel`)
 - **R5** – Autorização Final (R1 AND R2 AND R3 AND R4)
 
-## Protótipo de Telas (Figma)
+## Protótipo de Telas no FIGMA
 
 [https://www.figma.com/proto/XEQcJO2Wr63hO2AE6zg5xS/SISTEMA-BIBLIOTECA--c%C3%B3pia-?node-id=0-1&t=qIEmDoA8eJZcLAsi-1](https://www.figma.com/proto/XEQcJO2Wr63hO2AE6zg5xS/SISTEMA-BIBLIOTECA--c%C3%B3pia-?node-id=0-1&t=qIEmDoA8eJZcLAsi-1)
