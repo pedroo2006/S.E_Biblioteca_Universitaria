@@ -29,13 +29,6 @@ Sistema especialista que decide, por encadeamento para frente (*forward chaining
 
 - `demonstracao_do_sistema.py` — implementação em Python da Base de Conhecimento e do motor de inferência, com 5 cenários de teste (aprovação e negação em cada uma das regras).
 
-## Como executar
-
-Requer apenas Python 3 (nenhuma biblioteca externa é necessária):
-
-```bash
-python demonstracao_do_sistema.py
-```
 
 ## Protótipo de Telas (Figma)
 
