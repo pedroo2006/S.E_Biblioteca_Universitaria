@@ -1,6 +1,6 @@
 # Sistema Especialista – Biblioteca Universitária
 
-Trabalho da disciplina de Sistemas Especialistas — Universidade Veiga de Almeida (UVA), Ciência da Computação, 2026.
+Trabalho da disciplina de Sistemas Especialistas
 
 ## Grupo
 
@@ -12,7 +12,7 @@ Trabalho da disciplina de Sistemas Especialistas — Universidade Veiga de Almei
 
 ## Descrição
 
-Sistema especialista que decide, por encadeamento para frente (*forward chaining*), se um empréstimo de livro pode ser autorizado para um aluno da biblioteca universitária. A decisão é baseada em uma Base de Conhecimento com fatos sobre o aluno e sobre o livro solicitado, avaliados por 5 regras sequenciais (R1 a R5). O processamento é interrompido assim que a primeira regra falha, e o sistema mantém uma trilha explicando o raciocínio até a decisão final.
+Sistema especialista que decide por forward chaining se um empréstimo de livro pode ser autorizado para um aluno da biblioteca de uma universidade. A decisão é baseada em uma base de conhecimento com fatos sobre o aluno e sobre o livro solicitado, avaliados por 5 regras sequenciais. O processamento é interrompido assim que a primeira regra falha, e o sistema mantém uma trilha explicando o raciocínio até a decisão final.
 
 ## Base de Conhecimento (resumo)
 
@@ -24,11 +24,6 @@ Sistema especialista que decide, por encadeamento para frente (*forward chaining
 - **R3** – Controle de Cota/Limite (`emprestimos_atuais < max_emprestimos_aluno`)
 - **R4** – Verificação de Disponibilidade (`disponivel`)
 - **R5** – Autorização Final (R1 AND R2 AND R3 AND R4)
-
-## Arquivos
-
-- `demonstracao_do_sistema.py` — implementação em Python da Base de Conhecimento e do motor de inferência, com 5 cenários de teste (aprovação e negação em cada uma das regras).
-
 
 ## Protótipo de Telas (Figma)
 
